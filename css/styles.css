@@ -70,7 +70,8 @@ header {
 
 #home {
     display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #cta {
@@ -147,6 +148,19 @@ img {
     margin-left: 10px;
 }
 
+/*tabelas*/
+.table {
+    margin-bottom: 40px;
+    width: 100%;
+    display: block;
+}
+
+.table h2 {
+    margin-bottom: 15px;
+    color: #1d1d1d;
+    margin-left: 10px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -170,4 +184,19 @@ th {
 
 tr:hover {
     background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #e498a9;
+    color: #fefcf6;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #e498a9;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 15px 15px 0 0;
 }
